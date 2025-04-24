@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+   <script src="https://kit.fontawesome.com/70ff5d9f9d.js" crossorigin="anonymous"></script>
+    
+    
+</head>
+
+<body>
+
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/arc.jpg" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#mywork">My Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>UI/UX Designer</p>
+            <h1>Hi, I'm <span>AR chandu</span><br>
+                 From India</h1>
+        </div>
+    </div>
+</div>
+
+<!-----about me -->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+           <div class="about-col-1">
+              <img src="images/userprofile-passportsize.jpg" class="user-pic-property">
+           </div>
+
+           <div class="about-col-2">
+               <h1 class="sub-title">About me</h1>
+               <p class="p-1">Hi, I'm A.ReddiChandu— a passionate Full Stack Developer, with a drive to 
+                create meaningful and impactful work. With a strong focus on HTML,CSS,JAVASCRIPT,
+                Python and crafting user-centric websites, producing engaging content, or designing 
+                visually striking interfaces, I thrive on turning ideas into reality.</p>
+                
+              
+                
+                <div class="tab-title">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('projects')">Projects</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div> 
+
+
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing web/app Interfaces</li>
+                        <li><span>Web developer</span><br>web app Development</li>
+                        <li><span>Problem Solving</span><br>Approaching Various Ways to Find Solutions</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="projects">
+                    <ul>
+                        <li><span>SafeDrive Guardian</span><br>Leading the Team</li>
+                        <li><span>Food Ordering System</span><br>web Development</li>
+                        <li><span>StockMarket Analyzer</span><br>Building project with EndtoEnd Tools</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Parul University(Btech)</span><br>7.02 CGPA</li>
+                        <li><span>Secondary Education</span><br>87%</li>
+                        <li><span>Primary Education</span><br>9.8 GPA</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!----Servicesss-->
+
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                 <h2>Web Design</h2>
+                 <p>Learn How To Make A Portfolio Website Using HTML CSS JavaScript |
+                   Complete Responsive Website Design | Make Personal portfolio website</p>
+                 <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>UI/UX Design focuses on creating visually appealing and user-friendly digital experiences. 
+                        It combines aesthetics with functionality to enhance usability and engagement</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Web Development</h2>
+                    <p>Web development involves building and maintaining websites, ensuring functionality, performance, and responsiveness. 
+                        It includes both frontend and backend technologies for seamless user experiences.</p>
+                    <a href="#">Learn More</a>
+                </div>
+        </div>
+    </div>
+</div>
+
+
+<!--------Portfolioooo-->
+
+<div id="mywork">
+     <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/IQoooo.jpg" >
+                <div class="layer">
+                    <h3>Iqoo Mobiles Demo website</h3>
+                    <p>This Page Demonstrates and shows the variants in the Iqoo mobiles to Show the users.
+                    </p>
+                   
+                    <a href="https://arcandco.ccbp.tech/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>    
+            </div>
+
+            <div class="work">
+                <img src="images/Food-Order.jpg" >
+                <div class="layer">
+                    <h3>Responsive Food Ordering website</h3>
+                    <p>As a responsive Website this page shows you all the featuresin this website for better User Experince 
+                    </p>
+                    <a href="https://hungryfoods.ccbp.tech/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/Todo-list-img.jpg" >
+                <div class="layer">
+                    <h3>To do List</h3>
+                    <p>A To-Do List is a simple task management tool that helps users organize, prioritize, and track tasks efficiently. 
+                        It improves productivity by providing a clear overview of pending and completed tasks.
+                    </p>
+                    <a href="https://arcandco.ccbp.tech/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <a href="#" class="btn">See more</a>
+
+     </div>
+</div>
+
+<!--------Contacct-->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-paper-plane"></i>contact@example.com</p>
+                <p><i class="fa-solid fa-phone"></i>012345678654</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/Resume_A.pdf" class="btn btn2">Download CV</a>
+            </div>
+                <div class="contact-right">
+                   <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required> 
+                    <textarea name="Message" rows="6" placeholder="your Message"></textarea>     
+                    <button type="submit" class="btn btn2">Submit</button>           
+                   </form>
+                   <span id="msg"></span>
+                </div>
+            
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p>Copyright @ ARC. Made with <i class="fa-solid fa-circle-info"></i> by ARC academy </p>
+    </div>
+</div>
+
+<script>
+
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link")
+    }
+
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab")
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab")
+
+
+}
+      
+</script>
+
+
+<script>
+
+  var sidemeu = document.getElementById("sidemenu");
+
+  function openmenu(){
+    sidemeu.style.right = "0";
+  }
+  function closemenu(){
+    sidemeu.style.right = "-200px";
+  }
+</script>
+      
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwvvbF8JV-DGleHeoXqAdbkP12xUlqHqvB6ShKUjw-EZa-3O06IhbYAtvRdONV3nM84/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML= "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            
+            form.reset()
+        })
+
+
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+
+</html>
